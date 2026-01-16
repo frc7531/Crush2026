@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 9.5745,
+        "y": 1.885194672131147
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 9.311250000000001,
+        "y": 1.8754446721311469
+      },
+      "isLocked": false,
+      "linkedName": "Red Barge "
+    },
+    {
+      "anchor": {
+        "x": 7.595250000000001,
+        "y": 6.189500000000001
+      },
+      "prevControl": {
+        "x": 7.8975,
+        "y": 6.189500000000001
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Blue Barge"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 145.0,
+    "maxAngularAcceleration": 290.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Field Set Locations",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 178.87669728592465
+  },
+  "useDefaultConstraints": true
+}

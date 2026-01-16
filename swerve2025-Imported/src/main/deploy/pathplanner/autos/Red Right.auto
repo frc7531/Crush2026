@@ -1,0 +1,149 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "AlgaeIdle_cmd"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Red Right to AT 9 VISION"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutoAlignRobot_cmd"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "ElevatorLevel4_cmd"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.15
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "CoralIntakeAuto_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.15
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ElevatorDOWNAuto_cmd"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AT 9 to AT 2 VISION"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "CoralIntakeAuto_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.15
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "AT 2 to AT 8 VISION"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutoAlignRobot_cmd"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "ElevatorLevel4_cmd"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.15
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "CoralIntakeAuto_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.15
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ElevatorDOWNAuto_cmd"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Red coral",
+  "choreoAuto": false
+}

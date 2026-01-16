@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.6715,
+        "y": 4.03475
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.948749999999999,
+        "y": 4.0835
+      },
+      "isLocked": false,
+      "linkedName": "AT ID 18"
+    },
+    {
+      "anchor": {
+        "x": 14.898000000000001,
+        "y": 4.03475
+      },
+      "prevControl": {
+        "x": 13.898000000000001,
+        "y": 4.03475
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "AT ID 7"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 145.0,
+    "maxAngularAcceleration": 290.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "reversed": false,
+  "folder": "Reef April Tag Set Locations",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

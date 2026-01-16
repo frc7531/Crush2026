@@ -1,0 +1,98 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Blue Center to AT 21 Vision"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutoAlignRobot_cmd"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "ElevatorLevel4_cmd"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "CoralIntakeAuto_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.25
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ElevatorAlgae1_cmd"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShiftRight_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlgaeAutoPivotDown_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.4
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ElevatorDOWNAuto_cmd"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AT 21 to AT 14"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlgaeAutoPiviotFloor_cmd"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Algea Autos",
+  "choreoAuto": false
+}

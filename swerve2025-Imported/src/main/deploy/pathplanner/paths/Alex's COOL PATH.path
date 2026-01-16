@@ -1,0 +1,107 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.1742500000000002,
+        "y": 6.6282499999999995
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.34,
+        "y": 4.795249999999999
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.94025,
+        "y": 5.9945
+      },
+      "prevControl": {
+        "x": 3.1971889211333435,
+        "y": 7.321268861196307
+      },
+      "nextControl": {
+        "x": 0.7117500000000003,
+        "y": 4.69775
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.43325,
+        "y": 5.9945
+      },
+      "prevControl": {
+        "x": 2.70075,
+        "y": 5.195000000000001
+      },
+      "nextControl": {
+        "x": 0.16574999999999962,
+        "y": 6.794
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.062749999999683,
+        "y": 3.9079999999995825
+      },
+      "prevControl": {
+        "x": 1.842749999999682,
+        "y": 3.664249999999582
+      },
+      "nextControl": {
+        "x": 0.2595021444546324,
+        "y": 4.159014954857414
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.1742500000000002,
+        "y": 3.2644999999995825
+      },
+      "prevControl": {
+        "x": 2.2425000000000006,
+        "y": 5.038999999999582
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 2.0,
+      "rotationDegrees": 180.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 145.0,
+    "maxAngularAcceleration": 290.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Blue April Tags",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

@@ -1,0 +1,117 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "AlgaeIdle_cmd"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Red Center to AT 10 VISION"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutoAlignRobot_cmd"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "ElevatorLevel4_cmd"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "CoralIntakeAuto_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.25
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ElevatorAlgae1_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShiftRight_cmd"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlgaeAutoPivotDown_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlgaeAutoPivotUp_cmd"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 76.2
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AT 10 to AT 3 VISION"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlgaeOuttake_cmd"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Algea Autos",
+  "choreoAuto": false
+}

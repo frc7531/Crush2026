@@ -1,0 +1,78 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 9.518,
+        "y": 3.036
+      },
+      "prevControl": null,
+      "nextControl": {
+<<<<<<<< HEAD:src/main/deploy/pathplanner/paths/Red Set Location 1.path
+        "x": 9.768,
+        "y": 3.036
+========
+        "x": 9.865720387670516,
+        "y": 3.351049798077961
+>>>>>>>> e03005837b72d778828d73df5378cbe5dbbea9ad:src/main/deploy/pathplanner/paths/Red Reef April Tag ID 9.path
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 9.518,
+        "y": 3.036
+      },
+      "prevControl": {
+<<<<<<<< HEAD:src/main/deploy/pathplanner/paths/Red Set Location 1.path
+        "x": 9.268,
+        "y": 3.036
+========
+        "x": 11.372218512812564,
+        "y": 4.804787147869647
+>>>>>>>> e03005837b72d778828d73df5378cbe5dbbea9ad:src/main/deploy/pathplanner/paths/Red Reef April Tag ID 9.path
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.24307900067521906,
+      "maxWaypointRelativePos": 0.2592842673869011,
+      "constraints": {
+        "maxVelocity": 3.001,
+        "maxAcceleration": 3.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.001,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Set Locations",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

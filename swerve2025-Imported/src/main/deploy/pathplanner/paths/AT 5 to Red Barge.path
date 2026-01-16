@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 10.179,
+        "y": 1.885194672131147
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 9.85725,
+        "y": 1.8949446721311456
+      },
+      "isLocked": false,
+      "linkedName": "AT ID 5"
+    },
+    {
+      "anchor": {
+        "x": 9.5745,
+        "y": 1.885194672131147
+      },
+      "prevControl": {
+        "x": 10.125454918032787,
+        "y": 1.8911885245901636
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Red Barge "
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 0.5,
+    "maxAcceleration": 0.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 178.87669728592465
+  },
+  "reversed": false,
+  "folder": "Red Moves",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 178.87669728592465
+  },
+  "useDefaultConstraints": false
+}

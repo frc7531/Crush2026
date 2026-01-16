@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.0,
+        "y": 5.0
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.0,
+        "y": 5.0
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 9.867,
+        "y": 7.34
+      },
+      "prevControl": {
+        "x": 9.7305,
+        "y": 8.5375
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 99999.0,
+    "maxAcceleration": 9999.0,
+    "maxAngularVelocity": 9999.0,
+    "maxAngularAcceleration": 9999.0,
+    "nominalVoltage": 13.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 10.0,
+    "rotation": 179.0
+  },
+  "reversed": false,
+  "folder": "Blue April Tags",
+  "idealStartingState": {
+    "velocity": 9999.0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": false
+}

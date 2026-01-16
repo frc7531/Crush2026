@@ -1,0 +1,74 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 11.556,
+        "y": 4.115
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 10.57125,
+        "y": 3.2570000000000006
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 13.64200819672131,
+        "y": 1.7533299180327868
+      },
+      "prevControl": {
+        "x": 12.016338627049178,
+        "y": 2.3670735143442636
+      },
+      "nextControl": {
+        "x": 15.267677766393442,
+        "y": 1.1395863217213111
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 16.363217213114755,
+        "y": 0.9981045081967216
+      },
+      "prevControl": {
+        "x": 16.245570154291222,
+        "y": 1.2186927434908372
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.001,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 126.34800000000001
+  },
+  "reversed": false,
+<<<<<<<< HEAD:src/main/deploy/pathplanner/paths/Red Coral Station 1.0.path
+  "folder": "Red April Tags to Station",
+========
+  "folder": "Red  Moves",
+>>>>>>>> e03005837b72d778828d73df5378cbe5dbbea9ad:src/main/deploy/pathplanner/paths/Red Coral Station 1.0 from AT 10.path
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

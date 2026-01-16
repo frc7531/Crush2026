@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 6.341495901639344,
+        "y": 6.260706967213114
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.624245901639342,
+        "y": 6.231456967213113
+      },
+      "isLocked": false,
+      "linkedName": "AT ID 14"
+    },
+    {
+      "anchor": {
+        "x": 7.595250000000001,
+        "y": 6.189500000000001
+      },
+      "prevControl": {
+        "x": 7.332000000000001,
+        "y": 6.209
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Blue Barge"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 0.5,
+    "maxAcceleration": 0.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Blue Moves",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": false
+}

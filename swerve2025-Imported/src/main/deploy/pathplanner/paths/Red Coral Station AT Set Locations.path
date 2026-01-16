@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 16.662909836065573,
+        "y": 7.327612704918032
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 16.389909836065574,
+        "y": 5.991862704918033
+      },
+      "isLocked": false,
+      "linkedName": "AT ID 2"
+    },
+    {
+      "anchor": {
+        "x": 16.575,
+        "y": 0.71
+      },
+      "prevControl": {
+        "x": 16.50675,
+        "y": 1.4607499999999982
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "AT ID 1"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 145.0,
+    "maxAngularAcceleration": 290.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 125.83765295427824
+  },
+  "reversed": false,
+  "folder": "Field Set Locations",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -128.08877288097523
+  },
+  "useDefaultConstraints": true
+}
