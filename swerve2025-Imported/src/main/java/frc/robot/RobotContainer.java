@@ -77,6 +77,7 @@ public class RobotContainer {
     private double lastYAxisValue = 0.0;
 
     public final CommandSwerveDrivetrain drivetrain = TunerConstants.createDrivetrain();
+
     public final ElevatorSubsystem Elevator = new ElevatorSubsystem();
 
     //Establishing pathplanner Named Commands
@@ -132,7 +133,7 @@ public class RobotContainer {
         NamedCommands.registerCommand("AlgaeIdle_cmd", algaeIdle);
         
 
-        autoChooser = AutoBuilder.buildAutoChooser("None");
+        autoChooser = AutoBuilder.buildAutoChooser("New Auto");
 
         SmartDashboard.putData("Auto Mode", autoChooser);
 
@@ -172,8 +173,8 @@ public class RobotContainer {
 
             
             drivetrain.applyRequest(() -> 
-                drive.withVelocityX(getSpeed() * -controller.getLeftY() * MaxSpeed) // Drive forward with negative Y (forward)
-                .withVelocityY(getSpeed()* -controller.getLeftX() * MaxSpeed) // Drive left with negative X (left)
+                drive.withVelocityX(getSpeed() * controller.getLeftY() * MaxSpeed) // Drive forward with negative Y (forward)
+                .withVelocityY(getSpeed()* controller.getLeftX() * MaxSpeed) // Drive left with negative X (left)
                 .withRotationalRate(getSpeed() * -controller.getRightX() * MaxAngularRate) // Drive counterclockwise with negative X (left) 
                 )
             );

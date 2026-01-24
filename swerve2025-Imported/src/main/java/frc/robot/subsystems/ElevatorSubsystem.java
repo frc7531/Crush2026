@@ -40,8 +40,8 @@ public class ElevatorSubsystem extends SubsystemBase {
   }
 
   public void StopMotors() {
-    kleftElevatorMotor.set(0.036);
-    kRightElevatorMotor.set(0.036);
+    kleftElevatorMotor.set(0); //0.036
+    kRightElevatorMotor.set(0); //0.036
 
   }
 
